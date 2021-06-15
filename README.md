@@ -12,4 +12,10 @@
 
 🏆 Loved participating in various **competitions and hackathons**. Reached three times at the **Smart India Hackathon** (India's largest Hackathon) grand finale. Worked on the ML/DL-based projects of **ISRO**, **ITC ltd**, and **DRDO** (India's esteemed organizations). 
 
-🥇 Recently started with **Kaggle**. Trying to gain experience and medals.
+🥇 Recently started with **Kaggle** (kaggle.com/devashishprasad). Trying to gain experience and medals.
+
+🧠 I spend my free time on stackoverflow.com and datascience.stackexchange.com
+
+<a href="https://stackoverflow.com/users/8029329/devashish-prasad"><img src="https://stackoverflow.com/users/flair/8029329.png" width="208" height="58" alt="profile for Devashish Prasad at Stack Overflow, Q&amp;A for professional and enthusiast programmers" title="profile for Devashish Prasad at Stack Overflow, Q&amp;A for professional and enthusiast programmers"></a>
+
+<a href="https://datascience.stackexchange.com/users/65781/devashish-prasad"><img src="https://datascience.stackexchange.com/users/flair/65781.png" width="208" height="58" alt="profile for Devashish Prasad at Data Science Stack Exchange, Q&amp;A for Data science professionals, Machine Learning specialists, and those interested in learning more about the field" title="profile for Devashish Prasad at Data Science Stack Exchange, Q&amp;A for Data science professionals, Machine Learning specialists, and those interested in learning more about the field"></a>
