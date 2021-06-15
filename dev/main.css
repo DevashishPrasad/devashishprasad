@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:ital,wght@1,800&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body{
+	text-align:center;
+	font-family: Roboto;
+}
+
+.heading_center{
+	font-size:48px;
+	font-weight:bold;
+	font-family: Alegreya Sans SC;
+	color:#444;
+}
+
+.heading_center a{
+	text-decoration: none;
+	color:#444;	
+}
+
+.header ul li{
+	display: inline;
+	margin-left: 10px;
+	margin-right: 10px;	
+	font-size:20px;	
+}
+
+.header ul li a{
+	text-decoration: none;
+	color:#888;
+}
+
+.profile_pic img{
+	width:30%;
+	border-radius:50px;
+}
