@@ -14,7 +14,7 @@
 
 🥇 Recently started with **Kaggle** (kaggle.com/devashishprasad). Trying to gain experience and medals.
 
-🧠 I spend my free time on stackoverflow.com and datascience.stackexchange.com
+🧠 Spend my free time on stackoverflow.com and datascience.stackexchange.com
 
 <a href="https://stackoverflow.com/users/8029329/devashish-prasad"><img src="https://stackoverflow.com/users/flair/8029329.png" width="208" height="58" alt="profile for Devashish Prasad at Stack Overflow, Q&amp;A for professional and enthusiast programmers" title="profile for Devashish Prasad at Stack Overflow, Q&amp;A for professional and enthusiast programmers"></a>
 
