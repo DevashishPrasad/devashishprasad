@@ -1,16 +1,15 @@
 ### Hi there 👋
 
-<!--
-**DevashishPrasad/devashishprasad** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+I have strong enthusiasm for **Machine Learning**, **Deep Learning**, and **Computer Vision**. 
 
-Here are some ideas to get you started:
+Pursuing **Bachelor's of Engineering in Information Technology** with an overall **CGPA of 9.4** and have been consistently in the top 5 of my class.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+Published **two international research papers** both in the ML/DL domain, one of which at the **CVPR 2020 conference** (the topmost computer science conference in the world).
+
+One of my open-sourced **Github** repositories has **800+ stars and 200+ forks**. Planning to build more such projects.
+
+Completed **five internships**, all of which in the ML/DL domain. Consistently worked on solving challenging industry and business problems with ML/DL.
+
+Loved participating in various **competitions and hackathons**. Reached three times at the **Smart India Hackathon** (India's largest Hackathon) grand finale. Worked on the ML/DL-based projects of **ISRO**, **ITC ltd**, and **DRDO** (India's esteemed organizations). 
+
+Recently started with **Kaggle**. Trying to gain experience and medals.
