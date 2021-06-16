@@ -2,21 +2,37 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
+:root {
+  --theme_color: #054573;
+  --body_color: #444;
+  --body_font:Roboto;
+}
+
 body{
 	text-align:center;
-	font-family: Roboto;
+	font-family: var(--body_font);
+	color:var(--body_color);	
 }
 
 .heading_center{
 	font-size:48px;
-	font-weight:bold;
-	font-family: Alegreya Sans SC;
-	color:#444;
+	font-weight:900;
+	font-family: var(--body_font);
 }
 
 .heading_center a{
 	text-decoration: none;
-	color:#444;	
+	color:var(--theme_color);	
+}
+
+.heading_center a:hover{
+	text-decoration: underline;
+}
+
+hr{
+    height: 2px;
+    background-color: var(--body_color);
+    border: none;;
 }
 
 .header ul li{
@@ -26,12 +42,50 @@ body{
 	font-size:20px;	
 }
 
+ul{
+	padding:0px;
+}
 .header ul li a{
 	text-decoration: none;
-	color:#888;
+	color:var(--body_color);
+}
+
+.header ul li a:hover{
+	color:var(--theme_color);
+	text-decoration: underline;
 }
 
 .profile_pic img{
-	width:30%;
-	border-radius:50px;
+	width:20%;
+	border-radius: 180px;
+	border:solid 10px;
+	border-color: var(--theme_color);	
+}
+
+.social li{
+	display: inline;
+	margin-left: 5px;
+	margin-right: 5px;	
+}
+
+.social i{
+	color: var(--body_color);
+	font-size:36px;		
+}
+
+.social i:hover{
+	color: var(--theme_color);
+}
+
+.footer{
+	color: #999;
+}
+
+h1{
+	color: var(--theme_color);
+	font-size: 36px;
+}
+
+article div{
+	width:50%;
 }
