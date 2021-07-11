@@ -5,18 +5,19 @@
 :root {
   --theme_color: #054573;
   --body_color: #444;
-  --body_font:Roboto;
+  --body_font: Roboto;
+  --all_width: 60%;
 }
 
 body{
-	text-align:center;
+	text-align: center;
 	font-family: var(--body_font);
 	color:var(--body_color);	
 }
 
 .heading_center{
-	font-size:48px;
-	font-weight:900;
+	font-size: 48px;
+	font-weight: 900;
 	font-family: var(--body_font);
 }
 
@@ -39,25 +40,25 @@ hr{
 	display: inline;
 	margin-left: 10px;
 	margin-right: 10px;	
-	font-size:20px;	
+	font-size: 20px;	
 }
 
 ul{
-	padding:0px;
+	padding: 0px;
 }
 
 .header ul li a{
 	text-decoration: none;
-	color:var(--body_color);
+	color: var(--body_color);
 }
 
 .header ul li a:hover{
-	color:var(--theme_color);
+	color: var(--theme_color);
 	text-decoration: underline;
 }
 
 .profile_pic img{
-	width:20%;
+	width: 20%;
 	border-radius: 180px;
 	border:solid 10px;
 	border-color: var(--theme_color);	
@@ -72,12 +73,12 @@ h1{
 	width: 10%;
 	margin-top:-15px;	
 	background-color: var(--theme_color);
-	height:4px;
+	height: 4px;
 }
 
 article g-emoji{
-	float:left;
-	width:8%;
+	float: left;
+	width: 8%;
 }
 
 g-emoji ~ p{
@@ -85,28 +86,29 @@ g-emoji ~ p{
 }
 
 .workdiv{
-	width:50%;
+	width: var(--all_width);
 	margin: 0 auto;
-	text-align:left;
+	text-align: left;
 }
 
 .workdiv > div{
-	margin-left: 160px;
+	margin-left: 140px;
 }
 
 .workdiv > p{
-	margin-left: 160px;
+	margin-left: 140px;
+	color:#999;
 }
 
 .workdiv img{
 	float:left;
-	width:140px;	
-	height:140px;
+	width:100px;	
+	height:100px;
 }
 
 .workdiv ul{
 	text-align:left;
-	margin-left: 160px;	
+	margin-left: 140px;	
 }
 
 .social li{
