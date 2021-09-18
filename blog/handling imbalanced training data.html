@@ -31,7 +31,51 @@
 		<br>
 		
 		<!-- Webpage content start  -->
-		<h2> Coming Soon! </h2>
+		<div class="workdiv">
+			<h2>Some ideas to handle an imbalanced training classification dataset</h2>
+
+			<br>
+
+			First, I prepare a common validation set out of my dataset and try out various methods. I evaluate performance of all these methods on the validation set. To start with I use the following methods to handle the imbalanced datasets. -
+
+			<br><br>
+
+			1. Using weighted cross-entropy loss
+
+			<br><br>
+			
+			We can assign weights to the cross-entropy loss such that it will penalize more to the smaller classes and the less to larger classes. Many frameworks have a very easy way to do this.
+			<br>In Scikit-learn we can look out for class_weight parameter. For eg - <a href="https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestClassifier.html">random forest</a>
+			<br><a href="https://discuss.pytorch.org/t/dealing-with-imbalanced-datasets-in-pytorch/22596">Here</a> is how we can use this in Pytorch
+			<br><a href="https://datascience.stackexchange.com/questions/13490/how-to-set-class-weights-for-imbalanced-classes-in-keras">Here</a> is how we can use this in Keras
+
+			<br><br>
+
+			2. Using focal loss
+
+			<br><br>
+
+			Originally proposed for object detection, but we can also use this for any other use case. Read more about it <a href="https://amaarora.github.io/2020/06/29/FocalLoss.html">here</a>
+			<br><a href="https://github.com/AdeelH/pytorch-multi-class-focal-loss">Here</a> is how you can use this in Pytorch for multi-class classification
+			<br><a href="https://github.com/umbertogriffo/focal-loss-keras">Here</a> is how you can use this in Keras
+			
+			<br><br>
+
+			3. Over Sampling and Under Sampling
+
+			<br><br>
+
+			There are so many techniques in this, check out <a href="https://imbalanced-learn.org/stable/user_guide.html">imblearn</a> a dedicated library just to deal with imbalanced datasets.
+			
+			<br><br>
+
+			4. Create a separate model for small classes
+
+			<br><br>
+
+			If you have some classes that have very small number of instances, you can consider creating a separate classifier for these small classes (called small_classifier for eg). You can group together these small clases under a single class (called small_class for eg) so that your main classifier will classify small_class with all other big classes in the dataset. And if your main classifier encounters any instance of small_class, it will pass it to small_classifier, which will predict the actual class for the small_class instance. This technique can give you accuracy boosts are now main classifier does not need to deal with very small classes, and insted small_classifier will be looking just at these small classes.
+		
+		</div>
 		<!-- Webpage content start  -->
 				
 		<br>
