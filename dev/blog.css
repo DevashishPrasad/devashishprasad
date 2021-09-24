@@ -1,0 +1,38 @@
+.blogdiv{
+	width: var(--all_width);
+	margin: 0 auto;
+	text-align: left;
+}
+
+.blogdiv h1{
+	text-align: center;
+}
+
+.blogdiv h2{
+	text-align: center;
+}
+
+.blogdiv span{
+	color:#999;
+	font-size:15px;
+}
+
+.blogdiv > div{
+	margin-left: 140px;
+}
+
+.blogdiv > p{
+	margin-left: 140px;
+	color:#999;
+}
+
+.blogdiv img{
+	float:left;
+	width:100px;	
+	height:100px;
+}
+
+.blogdiv ul{
+	text-align:left;
+	margin-left: 140px;	
+}

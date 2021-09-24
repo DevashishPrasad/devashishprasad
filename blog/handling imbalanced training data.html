@@ -5,6 +5,7 @@
 	<head>
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
 		<link rel="stylesheet" href="../dev/main.css"/>
+		<link rel="stylesheet" href="../dev/blog.css"/>
 	</head>
 	<body>
 		
@@ -13,16 +14,16 @@
 		<!-- Webpage Top start -->
 		<!-- Heading -->
 		<div class="heading_center">
-			<a href="index.html">Devashish Prasad</a>
+			<a href="../index.html">Devashish Prasad</a>
 		</div>
 		<hr noshade width=60%>
 		<!-- Header -->
 		<div class="header">
 			<ul>
-				<li><a href="about.html">About me</a></li>			
-				<li><a href="blog.html">Blog</a></li>
-				<li><a href="projects.html">Projects</a></li>				
-				<li><a href="papers.html">Papers</a></li>							
+				<li><a href="../about.html">About me</a></li>			
+				<li><a href="../blog.html">Blog</a></li>
+				<li><a href="../projects.html">Projects</a></li>				
+				<li><a href="../papers.html">Papers</a></li>							
 			</ul>
 		</div>
 		<hr noshade width=60%>
@@ -31,19 +32,24 @@
 		<br>
 		
 		<!-- Webpage content start  -->
-		<div class="workdiv">
-			<h2>Some ideas to handle an imbalanced training classification dataset</h2>
+		<div class="blogdiv">
+			<h1>Handling class imbalanced training data</h1>
 
+			<span>by Devashish Prasad</span>
+			<br>
+			<span>September 8, 2021</span>
+
+			<br>
+			<br>
+			<br>
 			<br>
 
 			First, I prepare a common validation set out of my dataset and try out various methods. I evaluate performance of all these methods on the validation set. To start with I use the following methods to handle the imbalanced datasets. -
 
 			<br><br>
 
-			1. Using weighted cross-entropy loss
+			<h3>1. Using weighted cross-entropy loss</h3>
 
-			<br><br>
-			
 			We can assign weights to the cross-entropy loss such that it will penalize more to the smaller classes and the less to larger classes. Many frameworks have a very easy way to do this.
 			<br>In Scikit-learn we can look out for class_weight parameter. For eg - <a href="https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestClassifier.html">random forest</a>
 			<br><a href="https://discuss.pytorch.org/t/dealing-with-imbalanced-datasets-in-pytorch/22596">Here</a> is how we can use this in Pytorch
@@ -51,9 +57,7 @@
 
 			<br><br>
 
-			2. Using focal loss
-
-			<br><br>
+			<h3>2. Using focal loss</h3>
 
 			Originally proposed for object detection, but we can also use this for any other use case. Read more about it <a href="https://amaarora.github.io/2020/06/29/FocalLoss.html">here</a>
 			<br><a href="https://github.com/AdeelH/pytorch-multi-class-focal-loss">Here</a> is how you can use this in Pytorch for multi-class classification
@@ -61,20 +65,22 @@
 			
 			<br><br>
 
-			3. Over Sampling and Under Sampling
-
-			<br><br>
+			<h3>3. Over Sampling and Under Sampling</h3>
 
 			There are so many techniques in this, check out <a href="https://imbalanced-learn.org/stable/user_guide.html">imblearn</a> a dedicated library just to deal with imbalanced datasets.
 			
 			<br><br>
 
-			4. Create a separate model for small classes
-
-			<br><br>
+			<h3>4. Create a separate model for small classes</h3>
 
 			If you have some classes that have very small number of instances, you can consider creating a separate classifier for these small classes (called small_classifier for eg). You can group together these small clases under a single class (called small_class for eg) so that your main classifier will classify small_class with all other big classes in the dataset. And if your main classifier encounters any instance of small_class, it will pass it to small_classifier, which will predict the actual class for the small_class instance. This technique can give you accuracy boosts are now main classifier does not need to deal with very small classes, and insted small_classifier will be looking just at these small classes.
 		
+			<br>
+			<br>
+			<br>
+
+			<h2>Thank you for reading! Please comment your thoughts below </h2>
+
 		</div>
 		<!-- Webpage content start  -->
 				
