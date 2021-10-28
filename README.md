@@ -2,11 +2,11 @@
 
 ✨ I have strong enthusiasm for **Machine Learning**, **Deep Learning**, and **Computer Vision**. 
 
-🖥️ Pursuing **Bachelor's of Engineering in Information Technology** with an overall **CGPA of 9.4** and have been consistently in the top 5 of my class.
+🖥️ Pursuing **Master's of Science in Computer Science** from **Purdue University**. Completerd my **Bachelor's of Engineering in Information Technology** with an overall **CGPA of 9.4**.
 
 📄 Published **two research papers** both in the ML/DL domain, one of which published at the **CVPR 2020 conference** (the topmost computer science conference in the world).
 
-🌟 One of my open-sourced **Github** repositories has **900+ stars and 200+ forks**. Planning to build more such projects.
+🌟 One of my open-sourced **Github** repositories has **950+ stars and 290+ forks**. Planning to build more such projects.
 
 👨‍💻 Completed **five internships**, all of which in the ML/DL domain. Consistently worked on solving challenging industry and business problems with ML/DL.
 
