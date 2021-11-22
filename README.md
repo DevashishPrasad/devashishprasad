@@ -2,7 +2,7 @@
 
 ✨ I have strong enthusiasm for **Machine Learning**, **Deep Learning**, and **Computer Vision**. 
 
-🖥️ Pursuing **Master's of Science in Computer Science** from **Purdue University**. Completerd my **Bachelor's of Engineering in Information Technology** with an overall **CGPA of 9.4**.
+🖥️ Pursuing **Master's of Science in Computer Science** from **Purdue University**. Completerd my **Bachelor's of Engineering in Information Technology** with an overall **CGPA of 9.59**.
 
 📄 Published **two research papers** both in the ML/DL domain, one of which published at the **CVPR 2020 conference** (the topmost computer science conference in the world).
 
