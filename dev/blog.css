@@ -26,13 +26,12 @@
 	color:#999;
 }
 
-.blogdiv img{
-	float:left;
-	width:100px;	
-	height:100px;
-}
-
 .blogdiv ul{
 	text-align:left;
 	margin-left: 140px;	
+}
+
+.blogdiv img{
+	width: 100%;
+	text-align: center;
 }

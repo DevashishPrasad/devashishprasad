@@ -85,6 +85,11 @@ g-emoji ~ p{
 	margin-left: 60px;
 }
 
+.stackdiv p{
+	float: left;
+	width: 50%;
+}
+
 .workdiv{
 	width: var(--all_width);
 	margin: 0 auto;

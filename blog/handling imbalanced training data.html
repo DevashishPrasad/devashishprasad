@@ -33,47 +33,114 @@
 		
 		<!-- Webpage content start  -->
 		<div class="blogdiv">
-			<h1>Handling class imbalanced training data</h1>
+			<h1>Handling class imbalanced training datasets</h1>
 
-			<span>by Devashish Prasad</span>
+			
+			<!-- Blog Banner -->
+			<img src="../assets/blog/banners/class-imbalance.jpg" 
+				alt="handling imbalanced training data" />
+
 			<br>
+			<br>
+			<br>
+
+			<span>by Devashish Prasad - </span>
 			<span>September 8, 2021</span>
 
-			<br>
-			<br>
+			
 			<br>
 			<br>
 
-			First, I prepare a common validation set out of my dataset and try out various methods. I evaluate performance of all these methods on the validation set. To start with I use the following methods to handle the imbalanced datasets. -
+			<h2>Introduction</h2>
+			In this blog, I will be sharing my experience in handling class imbalance for machine 
+			learning training datasets. This is just a word of advice, and I will try to update this
+			blog with more information as I learn more about the topic. If I encounter a dataset 
+			having class imbalance, I first prepare a common test set out of my dataset and 
+			try out various methods to solve the problem. I evaluate the performance of all these 
+			methods on the test set and use the one that performs the best. The following 
+			should be a good starting point for you. There might be many other ways that you should
+			consider to handle class imbalance. Please comment on this blog if you have any
+			suggestions.
+			
+			<br><br>
+			I am aware of two broad categories of techniques. The first type of technique plays with 
+			the loss function to solve the problem. On the other hand, the second type of technique 
+			directly the problem by changing the data distribution itself. I have mostly used the 
+			first type of technique. It is because I have been working with large datasets. The 
+			first type of technique is more efficient than the second type in terms of saving 
+			training time and attaining good accuracy. 
+			
+			<br><br>
+			I have used the following methods to handle the imbalanced datasets in the past. -
 
 			<br><br>
 
-			<h3>1. Using weighted cross-entropy loss</h3>
+			<h2>Modifying Loss functions</h2>
 
-			We can assign weights to the cross-entropy loss such that it will penalize more to the smaller classes and the less to larger classes. Many frameworks have a very easy way to do this.
-			<br>In Scikit-learn we can look out for class_weight parameter. For eg - <a href="https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestClassifier.html">random forest</a>
-			<br><a href="https://discuss.pytorch.org/t/dealing-with-imbalanced-datasets-in-pytorch/22596">Here</a> is how we can use this in Pytorch
-			<br><a href="https://datascience.stackexchange.com/questions/13490/how-to-set-class-weights-for-imbalanced-classes-in-keras">Here</a> is how we can use this in Keras
+			These types of techniques can be used easily when the dataset is large. <br>
+			
+			<h3>1. Weighted cross-entropy loss</h3>
+
+			We can assign weights to the cross-entropy loss such that it will penalize more to the 
+			smaller classes and the less to larger classes. Many frameworks have a very easy way to 
+			do this.
+			<br>In Scikit-learn we can look out for class_weight parameter. For eg - 
+			<a href="https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestClassifier.html">random forest</a>
+			<br><a href="https://discuss.pytorch.org/t/dealing-with-imbalanced-datasets-in-pytorch/22596">Here</a> is how we can use this in loss functions in Pytorch.
+			<br><a href="https://datascience.stackexchange.com/questions/13490/how-to-set-class-weights-for-imbalanced-classes-in-keras">Here</a> is how we can use this in Keras.
 
 			<br><br>
 
-			<h3>2. Using focal loss</h3>
+			<h3>2. Focal loss</h3>
 
-			Originally proposed for object detection, but we can also use this for any other use case. Read more about it <a href="https://amaarora.github.io/2020/06/29/FocalLoss.html">here</a>
-			<br><a href="https://github.com/AdeelH/pytorch-multi-class-focal-loss">Here</a> is how you can use this in Pytorch for multi-class classification
-			<br><a href="https://github.com/umbertogriffo/focal-loss-keras">Here</a> is how you can use this in Keras
+			Originally proposed for object detection, but we can also use this for any other use 
+			case. This <a href="https://amaarora.github.io/2020/06/29/FocalLoss.html">article</a> 
+			succinctly explains the whole idea.
+			<br><a href="https://github.com/AdeelH/pytorch-multi-class-focal-loss">Here</a> is 
+			how you can use this in Pytorch for multi-class classification.
+			<br><a href="https://github.com/umbertogriffo/focal-loss-keras">Here</a> is how you can 
+			use this in Keras.
 			
 			<br><br>
 
-			<h3>3. Over Sampling and Under Sampling</h3>
+			<h2>Over Sampling and Under Sampling techniques</h2>
 
-			There are so many techniques in this, check out <a href="https://imbalanced-learn.org/stable/user_guide.html">imblearn</a> a dedicated library just to deal with imbalanced datasets.
+			These techniques directly modify the data distribution and make the dataset balanced. 
+			The problem with these techniques is that they are not efficient with large datasets. 
+			If you do over-sampling, you will have to train the model on a much bigger dataset. It 
+			will increase training time by a lot (making it infeasible to train). If you do 
+			under-sampling, you will have to train the model on a small subset of the dataset. 
+			It will result in the loss of valuable training information, and I try never to use 
+			undersampling.
 			
 			<br><br>
 
-			<h3>4. Create a separate model for small classes</h3>
+			There are so many techniques in this, check out 
+			<a href="https://imbalanced-learn.org/stable/user_guide.html">imblearn</a> 
+			a dedicated library built only to deal with imbalanced datasets. It gives you a simple
+			scikit-learn type API to quickly implement various methods. You might have heard of 
+			SMOTE and ADASYN, and many more can be used very easily using this library.
+			
+			<br><br>
 
-			If you have some classes that have very small number of instances, you can consider creating a separate classifier for these small classes (called small_classifier for eg). You can group together these small clases under a single class (called small_class for eg) so that your main classifier will classify small_class with all other big classes in the dataset. And if your main classifier encounters any instance of small_class, it will pass it to small_classifier, which will predict the actual class for the small_class instance. This technique can give you accuracy boosts are now main classifier does not need to deal with very small classes, and insted small_classifier will be looking just at these small classes.
+			<h2>Create a separate model for small classes</h2>
+
+			In my experience, this technique is not straightforward to implement. You need to modify training
+			and testing pipelines if they are already complicated. But, still, you might want to 
+			consider it. So, if you have some classes that have very small number of instances, you 
+			can consider creating a separate classifier for these small classes (called 
+			small_classifier for eg). You can group these small classes under a single class 
+			(called small_class for eg) so that your main classifier will classify small_class with 
+			all other big classes in the dataset. And if your main classifier encounters any 
+			instance of small_class, it will pass it to small_classifier, which will predict the 
+			actual class for the small_class instance. This technique can give you accuracy boosts 
+			are now the main classifier does not need to deal with the small number of classes, and 
+			instead, small_classifier will be looking just at these small classes. The following 
+			image shows this technique (for training).
+
+			<br><br>
+
+			<img src="../assets/blog/class-imbalance-fig1.png" alt="small_class">
 		
 			<br>
 			<br>
@@ -82,7 +149,7 @@
 			<h2>Thank you for reading! Please comment your thoughts below </h2>
 
 		</div>
-		<!-- Webpage content start  -->
+		<!-- Webpage content end  -->
 				
 		<br>
 
