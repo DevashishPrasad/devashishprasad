@@ -3,16 +3,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 :root {
-  --theme_color: #054573;
-  --body_color: #444;
-  --body_font: Roboto;
-  --all_width: 60%;
+	--theme_color: #054573;
+	--body_color: #333;
+	--body_font: Roboto;
+	--all_width: 60%;
 }
 
 body{
 	text-align: center;
 	font-family: var(--body_font);
-	color:var(--body_color);	
+	color:var(--body_color);
+	font-size: 18.5px;
 }
 
 .heading_center{
@@ -58,10 +59,22 @@ ul{
 }
 
 .profile_pic img{
-	width: 20%;
+	width: 17%;
 	border-radius: 180px;
-	border:solid 10px;
+	border: solid 6px;
 	border-color: var(--theme_color);	
+}
+
+.profile_pic{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.introdiv{
+	width: var(--all_width);
+	margin: 0 auto;
+	text-align: justify;
+	font-size: 16px;
 }
 
 h1{
@@ -82,7 +95,7 @@ article g-emoji{
 }
 
 g-emoji ~ p{
-	margin-left: 60px;
+	margin-left: 72px;
 }
 
 .stackdiv p{
@@ -114,6 +127,60 @@ g-emoji ~ p{
 .workdiv ul{
 	text-align:left;
 	margin-left: 140px;	
+}
+
+.achdiv{
+	width: var(--all_width);
+	margin: 0 auto;
+	text-align: left;
+}
+
+mark{
+	background-color: var(--theme_color);
+	color: #fff;
+	padding: 5px;
+	border-radius: 5px;
+	margin-left: 4px;
+}
+
+.blogdiv{
+	width: var(--all_width);
+	margin: 0 auto;
+	text-align: left;
+}
+
+.prodiv{
+	width: var(--all_width);
+	margin: 0 auto;
+	text-align: left;
+}
+
+.prodiv > *{
+	margin-left: 260px;
+	text-align: justify;
+
+}
+
+.prodiv img{
+	float: left;
+	width: 240px;	
+	height: 240px;
+	margin-left: 0px;
+	box-shadow: 0px 0px 10px #ccc;
+	border-radius: 8px;
+}
+
+.prodiv p{
+	font-size: 16px;
+}
+
+.prodiv2 img{
+	width: 170px;	
+	height: 170px;
+	margin-left: 5px;
+	margin-right: 5px;
+	box-shadow: 0px 0px 10px #ccc;
+	border-radius: 8px;
 }
 
 .bloglist{

@@ -31,8 +31,221 @@
 		<br>
 		
 		<!-- Webpage content start  -->
-		<h2> This page is yet to be updated, please follow the github link for more details about my projects </h2>
+		<h1>Github Projects</h1>
+		<hr class="shorthr"/>
 		
+		<br>
+		
+		<div class="prodiv">
+			<img src="assets/projects/virtualassistant.png"/>
+			<div>
+				<h3> Virtual Assistant: Listen, Understand and Respond </h3>
+			</div>
+			<p> 
+				[ <a href="https://github.com/DevashishPrasad/Virtual-AI-assistant" target="_blank"> GitHub </a> ] 
+				[ <a href="https://www.youtube.com/watch?v=opfzcgXI7wA" target="_blank"> Youtube </a> ] 
+				<span style="margin-left: 63%;">
+					<i>- May 2021</i>
+				</span>
+			</p>
+			<p > 
+				This was my Bachelor's Final Year project. It was an attempt to build a system like Alexa, Google Home, and Siri with a knowledge database and basic face animation. Although designed for multiple general use cases, this project was built around a specific use-case of Airport and flight-based customer service. It is developed using open-sourced libraries like NVIDIA’s Flowtron library, used for text to speech or speech generation (having 100s of voices). The Joint-BERT pre-trained model was used for intent classification and tagging. And, the SpeechRecognition library was used for speech recognition. All of them integrated as a single system with an SQL database that contained all of the data (knowledge) of flights, destinations, seats, bookings, etc. An automatic face animation generation was also developed which used the output sound frequencies to render the face animation result in real-time. The current system is robust enough to intelligently and accurately identify and assist users with around five types of queries.
+			</p>
+		</div>
+
+		<br>
+
+		<div class="prodiv">
+			<img src="assets/projects/sih2020.png"/>
+			<div>
+				<h3> Video based Real-time Human Authentication </h3>
+			</div>
+			<p> 
+				[ <a href="https://github.com/DevashishPrasad/Real-time-Human-Authentication" target="_blank"> GitHub </a> ] 
+				[ <a href="https://drive.google.com/drive/folders/1yzq8kskoeD4SKlI4vFPndcdR-uLEBh_L" target="_blank"> Videos </a> ] 
+				<span style="margin-left: 65%;">
+					<i>- Aug 2020</i>
+				</span>
+			</p>
+			<p > 
+				This project idea was selected at the Smart India Hackathon 2020 grand finale. It is a three orthogonal camera (front, top, side) based dynamic human authentication system for an arbitrary building gate. Humans passing through the gate get authenticated using their face, gait, pose, etc., features. The front camera recognizes Face and Body measurements. The side camera tracks the gait, and the top camera detects piggybacking attacks. The state-of-the-art algorithms for Face Detection, Face Landmarking, Face Recognition, Face Anti-Spoofing, Gait recognition, and Pose Estimation are implemented and benchmarked. The system was deployed as a web-Application using Django, SQLite, and AJAX. It had features like dynamic user registration, automated video saving & future retrieval, activity logging, users database and profiling, and real-time monitoring. A python-based library for easy integration and experimentation of various state-of-the-art face detection, landmarking, and recognition models was also developed.
+			</p>
+		</div>
+
+		<br>
+
+		<div class="prodiv">
+			<img src="assets/projects/cascadetabnet.png"/>
+			<div>
+				<h3> CascadeTabNet: Table detection and structure recognition </h3>
+			</div>
+			<p> 
+				[ <a href="https://github.com/DevashishPrasad/CascadeTabNet" target="_blank"> GitHub </a> ] 
+				[ <a href="http://openaccess.thecvf.com/content_CVPRW_2020/papers/w34/Prasad_CascadeTabNet_An_Approach_for_End_to_End_Table_Detection_and_CVPRW_2020_paper.pdf" target="_blank"> Paper </a> ] 
+				[ <a href="https://www.youtube.com/watch?v=6rovEyWKZw8" target="_blank"> Youtube </a> ] 
+				<span style="margin-left: 55%;">
+					<i>- May 2020</i>
+				</span>
+			</p>
+			<p > 
+				This work got published at the CVPR 2020 conference. CascadTabNet is an automatic table recognition method to convert tabular data in document images to its digital format. It is an end-to-end approach for solving both problems (table detection and structure recognition) using a single Convolution Neural Network (CNN). The model used is a Cascade mask R-CNN HRNet based image segmentation model that predicts the regions of tables and recognizes the structural body cells from the detected tables in a single inference. The table structure cells predictions of the model are corrected by a robust rule-based algorithm. This model was trained on publically available datasets, and we improved the training by using novel image augmentation techniques. In its time, it attained the best accuracy results for Table detection and Structure recognition on public datasets, being the state-of-the-art. The mmdetection open-sourced library was used to develop this project.
+			</p>
+		</div>
+
+		<br>
+
+		<div class="prodiv">
+			<img src="assets/projects/trafficjunction.png"/>
+			<div>
+				<h3> AI-based Smart Vehicular Traffic Junction </h3>
+			</div>
+			<p> 
+				[ <a href="https://github.com/DevashishPrasad/Smart-Traffic-Junction" target="_blank"> GitHub </a> ] 
+				[ <a href="https://arxiv.org/abs/2005.01770" target="_blank"> Paper </a> ] 
+				[ <a href="https://www.youtube.com/watch?v=_VRbJYt-MtU" target="_blank"> Youtube1 </a> ] 
+				[ <a href="https://www.youtube.com/watch?v=D08sR8rcMhg" target="_blank"> Youtube2 </a> ] 
+				<span style="margin-left: 40%;">
+					<i>- Sep 2019</i>
+				</span>
+			</p>
+			<p > 
+				This work got published at the IEEE PuneCon 2019 conference. The project involved building an intelligent traffic junction that would intelligently estimate the traffic present in each of the four ways and control the traffic lights accordingly. We used four IP cameras (one for each lane) and developed a novel algorithm to estimate the traffic density using image processing and machine learning techniques. The cameras are read by the raspberry pi board using a local wireless network. The pi is also connected with traffic signal lights using its I/O pins and relay switches. It efficiently controls the traffic based on traffic density (which it computes using the algorithm) and appropriately increases or decreases the time for the green light for each lane. The pi is also connected to the internet and a remote server. A web application is developed and deployed on this remote server. It monitors the traffic junction status remotely and enables the user to control the junction remotely. Real-time logging also makes it easy to do the historical analysis.
+			</p>
+		</div>
+
+		<br>
+
+		<div class="prodiv">
+			<img src="assets/projects/itctobacco.png"/>
+			<div>
+				<h3> Image based tobacco grade classification system </h3>
+			</div>
+			<p> 
+				[ <a href="https://github.com/DevashishPrasad/ITC-Tobacoo" target="_blank"> GitHub </a> ] 
+				<span style="margin-left: 76%;">
+					<i>- Apr 2019</i>
+				</span>
+			</p>
+			<p > 
+				This project was selected for the Smart India Hackathon 2019 Grand Finale. Tobacco classification is a difficult problem, and only highly expert humans can correctly tell the grade of tobacco. This project was an effort to automate this process using an AI-based system. Our method predicts the grade of tobacco leaves using images based on various features like color, texture, and ripeness. We extract various features out of images using classical algorithms like Local Binary Patterns, Haralik, Gabor, Color channels, etc. Machine Learning models like SVM are trained on these features. We achieve over 90% accuracy using this approach. Deep learning-based CNN models struggle and do not attain more than 60% accuracy due to the scarcity of the data. The system was deployed as a local machine application using PyQT based User interface. This project was built for ITC Ltd.
+
+			</p>
+		</div>
+
+		<br>		
+
+		<h3>Other Github Projects</h3>
+
+		<div class="prodiv2">
+			<a href="https://github.com/DevashishPrasad/PICT-Feedback-System" target="_blank"><img src="assets/projects/feedback.png"/></a>
+			<a href="https://github.com/DevashishPrasad/LCD-OCR" target="_blank"><img src="assets/projects/lcdocr.png"/></a>
+			<a href="https://github.com/DevashishPrasad/Embossed-Text-Reader" target="_blank"><img src="assets/projects/embossocr.png"/></a>
+			<a href="https://github.com/DevashishPrasad/Angle-Distance" target="_blank"><img src="assets/projects/angledist.png"/></a>
+			<a href="https://github.com/DevashishPrasad/Tkinter-Real-Time-Classifier" target="_blank"><img src="assets/projects/prodclass.png"/></a>
+		</div>
+
+		<br>
+		<br>
+
+
+		<!-- section title -->
+		<h1>Skills</h1>
+		<hr class="shorthr"/>
+		
+		<br>
+		
+		<div class="achdiv">
+			
+			<b>Languages </b>
+			<br>
+			<br>
+			<mark>Python</mark>
+			<mark>Java</mark>
+			<mark>C++</mark>
+			<mark>C</mark>
+			<mark>JavaScript</mark>
+			<br>
+			<br>
+			<br>
+			
+			<b>Deep Learning </b>
+			<br>
+			<br>
+			<mark>Tensorflow</mark>
+			<mark>PyTorch</mark>
+			<mark>Keras</mark>
+			<br>
+			<br>
+			<br>
+			
+			<b>Data Science </b>
+			<br>
+			<br>
+			<mark>Scikit-learn</mark>               
+			<mark>Numpy</mark>
+			<mark>Pandas</mark>
+			<mark>Matplotlib</mark>
+			<br>
+			<br>
+			<br>
+	
+			<b>Computer Vision </b>
+			<br>
+			<br>			
+			<mark>Open CV</mark>
+			<mark>PIL/Pillow</mark>
+			<mark>Scikit-Image</mark>
+			<br>
+			<br>
+			<br>
+
+			<b>Web-Application </b>
+			<br>
+			<br>
+			<mark>JavaScript</mark>
+			<mark>HTML</mark>
+			<mark>CSS</mark>
+			<mark>Bootstrap</mark>
+			<mark>JQuery</mark>
+			<mark>JSP</mark>
+			<mark>PHP</mark>
+			<mark>AJAX</mark>
+			<mark>Flask</mark>
+			<mark>Fast API</mark>
+			<mark>Django</mark>
+			<br>
+			<br>
+			<br>
+
+			<b>Databases </b>
+			<br>
+			<br>
+			<mark>MySql</mark>
+			<mark>Oracle</mark>
+			<mark>MongoDB</mark>
+			<br>
+			<br>
+			<br>
+						
+			<b>Internet of Things </b>
+			<br>
+			<br>
+			<mark>Raspberry-Pi</mark>
+			<mark>Arduino</mark>
+			<br>
+			<br>
+			<br>
+
+			<b>Other </b>
+			<br>
+			<br>
+			<mark>Android</mark>
+			<mark>Git</mark>
+			<br>
+			<br>
+			<br>
+
+		</div>
 		<!-- Webpage content end  -->
 				
 		<br>
@@ -42,12 +255,13 @@
 		<!-- Social media -->
 		<div class="social">
 			<ul>
-				<li><a href="https://github.com/DevashishPrasad"><i class="fab fa-github"></i></a></li>			
-				<li><a href="https://www.linkedin.com/in/devashishprasad"><i class="fab fa-linkedin"></i></a></li>
-				<li><a href="https://www.kaggle.com/devashishprasad"><i class="fab fa-kaggle"></i></a></li>
-				<li><a href="https://stackoverflow.com/users/8029329/devashish-prasad"><i class="fab fa-stack-overflow"></i></a></li>				
-				<li><a href="https://datascience.stackexchange.com/users/65781/devashish-prasad"><i class="fab fa-stack-exchange"></i></a></li>				
-				<li><a href="mailto:devashishkprasad@gmail.com"><i class="fas fa-envelope"></i></a></li>
+				<li><a href="https://github.com/DevashishPrasad" target="_blank"><i class="fab fa-github"></i></a></li>			
+				<li><a href="https://www.linkedin.com/in/devashishprasad" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+				<li><a href="https://scholar.google.com/citations?user=uWOJCTQAAAAJ&hl=en" target="_blank"><i class="fas fa-graduation-cap"></i></i></a></li>
+				<li><a href="https://www.kaggle.com/devashishprasad" target="_blank"><i class="fab fa-kaggle"></i></a></li>
+				<li><a href="https://stackoverflow.com/users/8029329/devashish-prasad" target="_blank"><i class="fab fa-stack-overflow"></i></a></li>				
+				<li><a href="https://datascience.stackexchange.com/users/65781/devashish-prasad" target="_blank"><i class="fab fa-stack-exchange"></i></a></li>				
+				<li><a href="mailto:devashishkprasad@gmail.com" target="_blank"><i class="fas fa-envelope"></i></a></li>
 			</ul>			
 		</div>		
 		<!-- Last line -->
