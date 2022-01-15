@@ -6,7 +6,7 @@
 
 📄 Published **two research papers** both in the ML/DL domain, one of which published at the **CVPR 2020 conference** (the topmost computer science conference in the world).
 
-🌟 One of my open-sourced **Github** repositories has **950+ stars and 290+ forks**. Planning to build more such projects.
+🌟 One of my open-sourced **Github** repositories has **1000+ stars and 300+ forks**. Planning to build more such projects.
 
 👨‍💻 Completed **five internships**, all of which in the ML/DL domain. Consistently worked on solving challenging industry and business problems with ML/DL.
 
