@@ -14,6 +14,6 @@
 
 🕸️ Before my relocation to the US, I completed five internships in India, focusing on Machine Learning and Deep Learning in the topics of News sentiment analysis, ML in finance, Sports vision analysis, Document understanding, Optical Character Recognition, Face Recognition, Fine-grained image classification, Chatbots, etc.
 
-🏅 I have been at the Smart India Hackathon (India's biggest Hackathon) grand finalist three times. During which, I worked on ML/DL-based projects for ISRO, ITC Ltd, and DRDO (India's esteemed organizations).
+🏅 I was the Smart India Hackathon (India's biggest Hackathon) grand finalist three times. During which, I worked on ML/DL-based projects for ISRO, ITC Ltd, and DRDO (India's esteemed organizations).
 
 www.devashishprasad.com
