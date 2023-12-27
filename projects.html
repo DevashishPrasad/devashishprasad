@@ -22,7 +22,6 @@
 				<li><a href="about.html">About me</a></li>			
 				<li><a href="blog.html">Blog</a></li>
 				<li><a href="projects.html">Projects</a></li>				
-				<li><a href="papers.html">Papers</a></li>							
 			</ul>
 		</div>
 		<hr noshade width=60%>
@@ -48,7 +47,7 @@
 				</span>
 			</p>
 			<p > 
-				This work was done when I was working as a Graduate Data Science Researcher for Viasat (The Data Mine). Super-resolution (SR) models aim to convert low resolution images to high resolution images. Training practical SR models are typically challenging because these models tend to get biased toward training data distribution (type of degradation of low resolution (LR) images). Traditional SR models don’t generalize well to real-world unknown test time images. Blind image SR task aims to super-resolved LR images that result from an unknown degradation process and generate high resolution (HR) images. Blind SR models are more robust such that they become invariant to the degradation process of the LR image input. In this project, I carry out a detailed comparative analysis of two recent state-of-the-art Blind and one older but prominent Non-blind SR method. All three methods were originally trained (by their authors) in different training and testing environments. And so, these pre-trained models cannot be compared directly, which is the primary motivation of this project. To compare these models fairly, in this project, I carry out detailed experiments of training and evaluating these models in a common training and testing setting.
+				During my tenure as a Graduate Data Science Researcher at Viasat (The Data Mine), I focused on enhancing super-resolution (SR) models, which transform low-resolution images into high-resolution counterparts. However, traditional SR models often fail to generalize to real-world scenarios due to a bias towards the training data's specific degradation types. Addressing this, I explored blind SR techniques, designed to tackle images degraded by unknown processes, thus producing more robust and adaptable high-resolution outputs. This project involved a comprehensive comparative analysis of two advanced blind SR methods and a well-established non-blind SR approach. Each method, initially trained in unique environments, posed challenges for direct comparison. My primary goal was to mitigate this by retraining and evaluating all models under a uniform setting, ensuring a fair and insightful comparison.			
 			</p>
 		</div>
 
@@ -68,7 +67,7 @@
 				</span>
 			</p>
 			<p > 
-				This was my Bachelor's Final Year project. It was an attempt to build a system like Alexa, Google Home, and Siri with a knowledge database and basic face animation. Although designed for multiple general use cases, this project was built around a specific use-case of Airport and flight-based customer service. It is developed using open-sourced libraries like NVIDIA’s Flowtron library, used for text to speech or speech generation (having 100s of voices). The Joint-BERT pre-trained model was used for intent classification and tagging. And, the SpeechRecognition library was used for speech recognition. All of them integrated as a single system with an SQL database that contained all of the data (knowledge) of flights, destinations, seats, bookings, etc. An automatic face animation generation was also developed which used the output sound frequencies to render the face animation result in real-time. The current system is robust enough to intelligently and accurately identify and assist users with around five types of queries.
+				For my Bachelor's Final Year project, I developed a virtual assistant akin to Alexa, Google Home, and Siri, focusing on airport and flight customer service. Utilizing open-source libraries like NVIDIA's Flowtron for versatile text-to-speech capabilities, Joint-BERT for intent classification, and SpeechRecognition for voice input, I integrated these with an SQL database containing comprehensive flight information. Additionally, I crafted an automatic face animation feature that responds in real-time to vocal frequencies. The system proficiently handles five types of user queries, demonstrating robustness and accuracy in user assistance.
 			</p>
 		</div>
 
@@ -87,7 +86,7 @@
 				</span>
 			</p>
 			<p > 
-				This project idea was selected at the Smart India Hackathon 2020 grand finale. It is a three orthogonal camera (front, top, side) based dynamic human authentication system for an arbitrary building gate. Humans passing through the gate get authenticated using their face, gait, pose, etc., features. The front camera recognizes Face and Body measurements. The side camera tracks the gait, and the top camera detects piggybacking attacks. The state-of-the-art algorithms for Face Detection, Face Landmarking, Face Recognition, Face Anti-Spoofing, Gait recognition, and Pose Estimation are implemented and benchmarked. The system was deployed as a web-Application using Django, SQLite, and AJAX. It had features like dynamic user registration, automated video saving & future retrieval, activity logging, users database and profiling, and real-time monitoring. A python-based library for easy integration and experimentation of various state-of-the-art face detection, landmarking, and recognition models was also developed.
+				Selected for the Smart India Hackathon 2020 finale, this project introduces a dynamic human authentication system using three orthogonal cameras (front, top, side) at a building's entrance. It authenticates individuals based on facial features, gait, and posture. The front camera analyzes faces and body dimensions, the side camera monitors gait, and the top camera detects unauthorized entry attempts. It incorporates advanced techniques for face detection, recognition, anti-spoofing, gait analysis, and pose estimation. Deployed as a web application using Django, SQLite, and AJAX, it offers features like dynamic registration, video archiving, activity logs, user profiling, and real-time monitoring. Additionally, a Python library facilitates the integration of cutting-edge facial analysis models.
 			</p>
 		</div>
 
@@ -107,7 +106,7 @@
 				</span>
 			</p>
 			<p > 
-				This work got published at the CVPR 2020 conference. CascadTabNet is an automatic table recognition method to convert tabular data in document images to its digital format. It is an end-to-end approach for solving both problems (table detection and structure recognition) using a single Convolution Neural Network (CNN). The model used is a Cascade mask R-CNN HRNet based image segmentation model that predicts the regions of tables and recognizes the structural body cells from the detected tables in a single inference. The table structure cells predictions of the model are corrected by a robust rule-based algorithm. This model was trained on publically available datasets, and we improved the training by using novel image augmentation techniques. In its time, it attained the best accuracy results for Table detection and Structure recognition on public datasets, being the state-of-the-art. The mmdetection open-sourced library was used to develop this project.
+				Published at CVPR 2020, CascadTabNet is an innovative method for transforming tabular data in images into a digital format. It employs a single Convolutional Neural Network (Cascade Mask R-CNN HRNet) for simultaneous table detection and structure recognition. This end-to-end approach segments tables and identifies their structural cells in one step, with a rule-based algorithm refining the results. Trained on public datasets and enhanced with novel image augmentation techniques, it achieved state-of-the-art accuracy in table detection and structure recognition. The project was developed using the mmdetection open-source library.
 			</p>
 		</div>
 
@@ -128,7 +127,7 @@
 				</span>
 			</p>
 			<p > 
-				This work got published at the IEEE PuneCon 2019 conference. The project involved building an intelligent traffic junction that would intelligently estimate the traffic present in each of the four ways and control the traffic lights accordingly. We used four IP cameras (one for each lane) and developed a novel algorithm to estimate the traffic density using image processing and machine learning techniques. The cameras are read by the raspberry pi board using a local wireless network. The pi is also connected with traffic signal lights using its I/O pins and relay switches. It efficiently controls the traffic based on traffic density (which it computes using the algorithm) and appropriately increases or decreases the time for the green light for each lane. The pi is also connected to the internet and a remote server. A web application is developed and deployed on this remote server. It monitors the traffic junction status remotely and enables the user to control the junction remotely. Real-time logging also makes it easy to do the historical analysis.
+				Presented at the IEEE PuneCon 2019, this project developed an intelligent traffic junction system. Utilizing four IP cameras, one for each direction, the system employs a novel algorithm combining image processing and machine learning to gauge traffic density. Managed by a Raspberry Pi board, it adjusts traffic signals in real-time based on this data, optimizing the duration of green lights. Additionally, the Pi connects to a remote server, hosting a web application that allows for remote traffic monitoring, control, and real-time logging for historical analysis.
 			</p>
 		</div>
 
@@ -146,8 +145,7 @@
 				</span>
 			</p>
 			<p > 
-				This project was selected for the Smart India Hackathon 2019 Grand Finale. Tobacco classification is a difficult problem, and only highly expert humans can correctly tell the grade of tobacco. This project was an effort to automate this process using an AI-based system. Our method predicts the grade of tobacco leaves using images based on various features like color, texture, and ripeness. We extract various features out of images using classical algorithms like Local Binary Patterns, Haralik, Gabor, Color channels, etc. Machine Learning models like SVM are trained on these features. We achieve over 90% accuracy using this approach. Deep learning-based CNN models struggle and do not attain more than 60% accuracy due to the scarcity of the data. The system was deployed as a local machine application using PyQT based User interface. This project was built for ITC Ltd.
-
+				Chosen for the Smart India Hackathon 2019 Grand Finale, this project aimed to automate tobacco grading, a task traditionally requiring expert human judgment. Using an AI system, it predicts tobacco leaf grade from images by analyzing color, texture, and ripeness. Classical image processing algorithms and machine learning techniques, specifically SVMs, were employed to extract features and achieve over 90% accuracy, outperforming deep learning models limited by data scarcity. The solution was implemented as a local application with a PyQT user interface, designed specifically for ITC Ltd.
 			</p>
 		</div>
 
@@ -167,104 +165,6 @@
 		<br>
 
 
-		<!-- section title -->
-		<h1>Skills</h1>
-		<hr class="shorthr"/>
-		
-		<br>
-		
-		<div class="achdiv">
-			
-			<b>Languages </b>
-			<br>
-			<br>
-			<mark>Python</mark>
-			<mark>Java</mark>
-			<mark>C++</mark>
-			<mark>C</mark>
-			<mark>JavaScript</mark>
-			<br>
-			<br>
-			<br>
-			
-			<b>Deep Learning </b>
-			<br>
-			<br>
-			<mark>Tensorflow</mark>
-			<mark>PyTorch</mark>
-			<mark>Keras</mark>
-			<br>
-			<br>
-			<br>
-			
-			<b>Data Science </b>
-			<br>
-			<br>
-			<mark>Scikit-learn</mark>               
-			<mark>Numpy</mark>
-			<mark>Pandas</mark>
-			<mark>Matplotlib</mark>
-			<br>
-			<br>
-			<br>
-	
-			<b>Computer Vision </b>
-			<br>
-			<br>			
-			<mark>Open CV</mark>
-			<mark>PIL/Pillow</mark>
-			<mark>Scikit-Image</mark>
-			<br>
-			<br>
-			<br>
-
-			<b>Web-Application </b>
-			<br>
-			<br>
-			<mark>JavaScript</mark>
-			<mark>HTML</mark>
-			<mark>CSS</mark>
-			<mark>Bootstrap</mark>
-			<mark>JQuery</mark>
-			<mark>JSP</mark>
-			<mark>PHP</mark>
-			<mark>AJAX</mark>
-			<mark>Flask</mark>
-			<mark>Fast API</mark>
-			<mark>Django</mark>
-			<br>
-			<br>
-			<br>
-
-			<b>Databases </b>
-			<br>
-			<br>
-			<mark>MySql</mark>
-			<mark>Oracle</mark>
-			<mark>MongoDB</mark>
-			<br>
-			<br>
-			<br>
-						
-			<b>Internet of Things </b>
-			<br>
-			<br>
-			<mark>Raspberry-Pi</mark>
-			<mark>Arduino</mark>
-			<br>
-			<br>
-			<br>
-
-			<b>Other </b>
-			<br>
-			<br>
-			<mark>Android</mark>
-			<mark>Git</mark>
-			<br>
-			<br>
-			<br>
-
-		</div>
 		<!-- Webpage content end  -->
 				
 		<br>

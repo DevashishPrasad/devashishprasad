@@ -1,29 +1,19 @@
 ### 👋 Hi there 
 
-✨ I have strong enthusiasm for **Machine Learning**, **Deep Learning**, and **Computer Vision**. 
+🧬 I am currently harnessing generative AI to address the most complex challenges in Biology for advancements in drug discovery.
 
-🖥️ Pursuing **Master's of Science in Computer Science** from **Purdue University**. Completerd my **Bachelor's of Engineering in Information Technology** with an overall **CGPA of 9.59**.
+🌟 I have published 3 research papers in deep learning /machine learning. One of the papers was published at CVPR and has over 150 citations and 1.3K Github stars.
 
-📄 Published **two research papers** both in the ML/DL domain, one of which published at the **CVPR 2020 conference** (the topmost computer science conference in the world).
+🎓 In the summer of 2023, I earned my Master of Science in Computer Science, specializing in Machine Learning, from Purdue University, achieving a GPA of 3.6/4.0.
 
-🌟 One of my open-sourced **Github** repositories has **1000+ stars and 300+ forks**. Planning to build more such projects.
+🖥️ During my final year of graduate studies, I served as a Research Assistant at Kihara Lab, one of Purdue University's premier applied ML research facilities. There, I employed generative deep learning models for intricate protein structure analysis and established a machine learning serving infrastructure for these computation-intensive models (em.kiharalab.org).
 
-👨‍💻 Completed **five internships**, all of which in the ML/DL domain. Consistently worked on solving challenging industry and business problems with ML/DL.
+👻 In the summer of 2022, I joined Snap Inc.'s Camera Platform team as a Machine Learning Engineer intern. My role involved developing and deploying a deep learning-based optical flow prediction model to automate Snapchat's video annotation process. This initiative enhanced video labeling and annotation efficiency by 15% for Snapchat's gigantic unlabelled video datasets.
 
-🏆 Loved participating in various **competitions and hackathons**. Reached three times at the **Smart India Hackathon** (India's largest Hackathon) grand finale. Worked on the ML/DL-based projects of **ISRO**, **ITC ltd**, and **DRDO** (India's esteemed organizations). 
+🛰️ In my first year of graduate study, I collaborated with Viasat Inc. through Purdue's The Data Mine program as a Graduate Data Science Researcher. My research focused on developing Deep Learning algorithms to tackle blind image super-resolution challenges, intended specifically to enhance the quality of Viasat's internal satellite imagery.
 
-🥇 Recently started with **Kaggle** (kaggle.com/devashishprasad). Trying to gain experience and medals.
+🕸️ Before my relocation to the US, I completed five internships in India, focusing on Machine Learning and Deep Learning in the topics of News sentiment analysis, ML in finance, Sports vision analysis, Document understanding, Optical Character Recognition, Face Recognition, Fine-grained image classification, Chatbots, etc.
 
-🧠 Spend my free time on stackoverflow.com and datascience.stackexchange.com
+🏅 I have been at the Smart India Hackathon (India's biggest Hackathon) grand finalist three times. During which, I worked on ML/DL-based projects for ISRO, ITC Ltd, and DRDO (India's esteemed organizations).
 
-## GitHub Stats
-<img height="220" src="https://github-readme-stats.vercel.app/api?username=devashishprasad&show_icons=true&theme=merko">
-
-## Stack Overflow Stats
-<a href="https://stackoverflow.com/users/8029329/devashish-prasad"><img src="https://stackoverflow.com/users/flair/8029329.png" width="208" height="58" alt="profile for Devashish Prasad at Stack Overflow, Q&amp;A for professional and enthusiast programmers" title="profile for Devashish Prasad at Stack Overflow, Q&amp;A for professional and enthusiast programmers"></a>
-
-<a href="https://datascience.stackexchange.com/users/65781/devashish-prasad"><img src="https://datascience.stackexchange.com/users/flair/65781.png" width="208" height="58" alt="profile for Devashish Prasad at Data Science Stack Exchange, Q&amp;A for Data science professionals, Machine Learning specialists, and those interested in learning more about the field" title="profile for Devashish Prasad at Data Science Stack Exchange, Q&amp;A for Data science professionals, Machine Learning specialists, and those interested in learning more about the field"></a>
-
-## Personal Website
-
-https://www.devashishprasad.com
+www.devashishprasad.com
