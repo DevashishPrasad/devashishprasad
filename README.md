@@ -1,6 +1,6 @@
 ### 👋 Hi there 
 
-🧬 I am currently harnessing generative AI to address the most complex challenges in Biology for advancements in drug discovery.
+🧬 I am currently harnessing generative AI to address the most complex challenges in Biology for advancements in drug discovery. I am co-creator of the [JAM](https://www.nabla.bio/news/denovo) foundation model.
 
 🌟 I have published 3 research papers in ML. One of the papers was published at CVPR and has over 200+ citations and 1.5K+ Github stars.
 
