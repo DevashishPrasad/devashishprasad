@@ -1,8 +1,10 @@
 ### 👋 Hi there 
 
-🧬 I am currently harnessing generative AI to address the most complex challenges in Biology for advancements in drug discovery. I am co-creator of the [JAM](https://www.nabla.bio/news/denovo) foundation model.
+🌪️ My current work focuses on using generative AI to improve high-resolution global weather forecasts and understand exactly how machine learning models make decisions. I am a founding engineer at [Causal Labs](https://www.causallabs.ai/).
 
-🌟 I have published 3 research papers in ML. One of the papers was published at CVPR and has over 200+ citations and 1.5K+ Github stars.
+🧬 At Nabla Bio, I used generative AI to address the most complex challenges in Biology for advancements in drug discovery (antibodies). I co-created the [JAM](https://www.nabla.bio/news/denovo) foundation model. JAM computationally designs high-quality therapeutic antibodies entirely from scratch, drastically accelerating drug discovery and unlocking historically intractable disease targets like multipass membrane proteins.
+
+🌟 I have published 3 research papers in ML. One of the papers was published at CVPR and has over 300+ citations and 1.5K+ Github stars. The other was published in Nature and has over 80 citations. All of my research work combined has over 450+ citations.
 
 🎓 In the summer of 2023, I earned my Master of Science in Computer Science, specializing in ML, from Purdue University, achieving a GPA of 3.6/4.0.
 
@@ -14,6 +16,6 @@
 
 🕸️ Before my relocation to the US, I completed five internships in India, focusing on ML in the topics of News sentiment analysis, ML in finance, Sports vision analysis, Document understanding, Optical Character Recognition, Face Recognition, Fine-grained image classification, Chatbots, etc.
 
-🏅 I was the Smart India Hackathon (India's biggest Hackathon) grand finalist three times. During which, I worked on ML-based projects for ISRO, ITC Ltd, and DRDO (India's esteemed organizations).
+🏅 I was a Smart India Hackathon (India's biggest Hackathon) grand finalist three times. During which I worked on ML-based projects for ISRO, ITC Ltd., and DRDO (India's esteemed organizations).
 
 www.devashishprasad.com
